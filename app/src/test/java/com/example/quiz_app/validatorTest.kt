@@ -19,4 +19,14 @@ class ValidatorTest{
 
     }
 
+    @Test
+
+    fun whenImputeIsInvalid(){
+        val amount = 0
+        val desc = " "
+        val result = validator.validatorInput(amount, desc)
+        assertThat(result).isEqualTo(false)
+
+    }
+
 }
