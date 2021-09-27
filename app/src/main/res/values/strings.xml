@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">quiz- app</string>
+    <string name="falsk">falsk</string>
+    <string name="sant">sant</string>
+    <string name="quiestion1">spørsmål</string>
+    <string name="start_knapp">start</string>
+    <string name="navn">name</string>
+    <string name="quizapp">quiz-app</string>
+    <string name="ending">thanks for ansering my quiz</string>
+</resources>
