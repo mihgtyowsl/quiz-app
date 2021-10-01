@@ -20,4 +20,7 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, QuizActivity::class.java)
         startActivity(intent)
     }
+
 }
+
+

@@ -9,13 +9,14 @@ import com.google.common.truth.Truth.assertThat
 @RunWith(JUnit4::class )
 class ValidatorTest{
 
+
     @Test
 
     fun whenImputeIsValid(){
         val amount = 100
-        val desc = "some random desc"
+        val desc = "som random desc"
         val result = validator.validatorInput(amount, desc)
-        assertThat(result).isEqualTo(true)
+        assertThat(result).isEqualTo(false)
 
     }
 
@@ -23,7 +24,7 @@ class ValidatorTest{
 
     fun whenImputeIsInvalid(){
         val amount = 0
-        val desc = " "
+        val desc = ""
         val result = validator.validatorInput(amount, desc)
         assertThat(result).isEqualTo(false)
 
